@@ -27,7 +27,7 @@ python3.9 -m pip install -r requirements.txt
 python3.9 train_chatbot.py
 ```
 
-Hasil training yaitu berupa model akan tersimpan menjadi 2 file, yaitu kelas.pkl untuk model klasifikasi dan kosakata.pkl untuk model word tokenization. atau tokenisasi kosakata
+Hasil training yaitu berupa model akan tersimpan menjadi 2 file, yaitu kelas.pkl untuk model klasifikasi dan kosakata.pkl untuk kalsifikasi tiap kata terhadap kelas. dan pemodelan tersimpan di models/chatbot_model.h5
 
 # Interaksi & GUI
  Jalankan perintah berikut untuk membuka jendela chat atau GUI dan mulai berinteraksi dengan bot
