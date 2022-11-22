@@ -35,4 +35,7 @@ Hasil training yaitu berupa model akan tersimpan menjadi 2 file, yaitu kelas.pkl
 python3.9 gui_chatbot.py
 ```
 
+#Presentasi
+ https://www.youtube.com/watch?v=tJs3VhZ9Xc4&t=7s
+
 
