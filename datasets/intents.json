@@ -1,0 +1,58 @@
+{"intents": [
+    {"tag": "HelloWorld",
+    "patterns": ["halo", "hai", "hello", "hi"],
+    "responses": ["Hai!, Perkenalkan aku adalah Kriss chatbot pintar yang bisa menjawab hal-hal yang berkaitan dengan wawasan bernegara seperti Pancasila, Pembukaan UUD, dan Proklamasi"],
+    "context": [""]
+    },
+
+    {"tag": "Salam",
+    "patterns": ["Salam", "Assalamualaikum"],
+    "responses": ["Waalaikumsalam"],
+    "context": [""]
+    },
+	
+	{"tag": "haraplebihspesifik",
+    "patterns": ["apa", "kenapa", "bagaimana", "dimana", "kapan", "siapa"],
+    "responses": ["Harap lebih spesifik lagi ya, saya tidak paham"],
+    "context": [""]
+    },
+	
+	{"tag": "apa.pancasila",
+    "patterns": ["apa Pancasila", "apa itu Pancasila"],
+    "responses": ["Pancasila adalah pilar ideologis negara Indonesia. Nama ini terdiri dari dua kata dari bahasa 'panca' berarti lima dan 'sila' berarti prinsip atau asas. Pancasila merupakan rumusan dan pedoman kehidupan berbangsa dan bernegara bagi seluruh rakyat Indonesia."],
+    "context": [""]
+    },
+	
+	{"tag": "kenapa.pancasila",
+    "patterns": ["kenapa pancasila"],
+    "responses": ["Kriss menemukan beberapa pertanyaan yang menyangkut nih, 'Kenapa pancasila diberi nama Pancasila', 'Kenapa Pancasila dibuat', 'Kenapa Indonesia perlu Pancasila'. 'Kenapa Pancasila sebagai dasar negara'"],
+    "context": [""]
+    },
+	
+	{"tag": "kenapa.pancasila.dibuat",
+    "patterns": ["kenapa pancasila di buat", "kenapa pancasila di bentuk", "Kenapa Pancasila di ciptakan"],
+    "responses": ["Karena pada awal kemerdekaan Indonesia memerlukan sebuah dasar negara sebagai dasar dalam melaksanakan urusan berbangsa dan bernegara"],
+    "context": [""]
+    },
+	
+	{"tag": "kenapa.pancasila.bernama",
+    "patterns": ["Kenapa bernama Pancasila", "Kenapa namanya Pancasila", "Nama Pancasila", "Kenapa pancasila diberi nama Pancasila"],
+    "responses": ["Karena Pancasila berasal dari dua kata Bahasa Sanskerta 'panca' berarti lima dan 'sila' berarti prinsip atau asas. sehingga terdapat lima prinsip berbangsa dan bernegara didalam Pancasila"],
+    "context": [""]
+    },
+	
+	
+    {"tag": "random",
+    "patterns": ["%dontunderstand%"],
+    "responses": ["Maaf saya tidak mengerti apa yang kamu maksud"],
+    "context": [""]
+    },
+
+    {"tag": "Namobudhaya",
+    "patterns": ["om", "swastyastu"],
+    "responses": ["Namo Buddhaya"],
+    "context": [""]
+    }
+
+    ]
+}
