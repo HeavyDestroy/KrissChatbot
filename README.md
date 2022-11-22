@@ -36,6 +36,7 @@ python3.9 gui_chatbot.py
 ```
 
 #Presentasi
+
  https://www.youtube.com/watch?v=tJs3VhZ9Xc4&t=7s
 
 
